@@ -12,7 +12,7 @@ int main(){
             printf("\nfale outro\n");
             scanf("%f",&b);
             c=a +b;
-            printf("%f + %f = %f",a,b,c);
+            printf("%.2f + %.2f = %.2f",a,b,c);
             return 0;
         }else if( z == 'b'){
              printf("\nSUBTRACAO\nfale um numero\n");
@@ -20,7 +20,7 @@ int main(){
             printf("\nfale outro\n");
             scanf("%f",&b);
             c= a -b;
-            printf("%f - %f = %f",a,b,c);
+            printf("%.2f - %2.f = %2.f",a,b,c);
             return 0;
         }else if( z == 'c'){
              printf("\nDIVISAO\nfale um numero\n");
@@ -28,7 +28,7 @@ int main(){
             printf("\nfale outro\n");
             scanf("%f",&b);
             c= a/b;
-            printf("%f / %f = %f",a,b,c);
+            printf("%.2f / %.2f = %.2f",a,b,c);
             return 0;
         }else if( z == 'd'){
              printf("\nMULTIPLICACAO\nfale um numero\n");
@@ -36,7 +36,7 @@ int main(){
             printf("\nfale outro\n");
             scanf("%f",&b);
             c= a*b;
-            printf("%f x %f = %f",a,b,c);
+            printf("%.2f x %.2f = %.2f",a,b,c);
             return 0;}
     return 0;
 }
