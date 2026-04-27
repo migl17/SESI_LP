@@ -1,6 +1,6 @@
 #include<stdio.h>
 
-int n[10],p=0;
+int n[10],media=0;
 
 int main(){
 	printf("fale 10 numeros\n");
@@ -10,13 +10,10 @@ int main(){
 	}
 	;
 	for(int i=0;i<10;i++){
-		if (n[i]%2==0){
-			p++;
+		media=media+n[i];
 			
 		}
-	printf("\no total de numeros pare sao %d\n",p);
-	}
-
+printf("\n media e %d\n",media/10);
 return 0;
 }
 
